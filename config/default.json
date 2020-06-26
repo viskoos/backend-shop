@@ -1,0 +1,5 @@
+{
+    "port": 5000,
+    "mongoUri": "mongodb+srv://viskoos:Zxasqw12@cluster0-cvdxx.azure.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret": "test mern blin nafig"
+}

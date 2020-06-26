@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "server": "nodemon app.js"
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "viskoos <tg @viskoos>",
   "license": "ISC",
@@ -17,6 +19,7 @@
     "express-validator": "^6.6.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.20",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "react-router-dom": "^5.2.0"
   }
 }
